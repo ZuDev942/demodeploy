@@ -1,0 +1,46 @@
+.page {
+  background: #edf1f5;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+    padding: 0 2rem;
+  background: white;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+
+  img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #2bc48a;
+    letter-spacing: 1rem;
+  }
+}
+
+.login-form-button {
+  background: #2bc48a;
+  border: none;
+  color: white;
+  font-weight: 500;
+}
+
+.login-form{
+    width: 30rem;
+}
+
+.ant-btn .btn--daily{
+    background: #2bc48a;
+    color: white;
+}

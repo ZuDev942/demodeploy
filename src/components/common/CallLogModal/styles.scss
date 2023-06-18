@@ -1,0 +1,25 @@
+.callActive {
+  background: $ghtk-color;
+  color: #fff;
+}
+
+.modal__header {
+  position: relative;
+}
+
+.icon__close {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translate(0, -50%);
+  z-index: 999;
+}
+
+.ant-radio-group :deep(.ant-radio-button-wrapper) {
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.ant-radio-group :deep(.ant-radio-button-wrapper)::before {
+  display: none;
+}

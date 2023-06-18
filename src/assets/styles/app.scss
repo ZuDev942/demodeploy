@@ -1,0 +1,30 @@
+@import "./libs/tailwind";
+@import "./common/general";
+@import "./common/fonts";
+
+// Override base SVG style to work with Ant Design
+svg {
+  vertical-align: initial;
+}
+
+html {
+  font-size: 62.5%;
+  /* Ta có thể chỉnh từ 10px sang 62.5% (16px*62.5% = 10px). */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}

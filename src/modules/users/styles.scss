@@ -1,0 +1,39 @@
+.users {
+  background: white;
+  height: 100%;
+}
+
+.content {
+  width: 100%;
+}
+.page {
+  background: white;
+  padding: 2rem;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+}
+
+.ant-table-wrapper {
+  padding: 0;
+}
+.ant-table-content :deep(.ant-table-thead) {
+  height: 3rem;
+}
+
+.btn {
+  background: #fafafa;
+  margin-left: 1rem;
+  height: 3.2rem;
+  color: #172b4d;
+  border-radius: 3px;
+}
+
+
+.ant-table-wrapper {
+  font-size: 3rem !important;
+}

@@ -1,0 +1,109 @@
+#__main {
+  height: 100%;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  background: #edf1f5;
+}
+
+#__content {
+  overflow: auto;
+  width: 100%;
+  padding-top: 5rem;
+  background: #edf1f5;
+}
+
+#__menu {
+  background: #2a3e4c;
+  width: 25rem;
+}
+
+.header {
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  height: 5rem;
+  background: white;
+  width: calc(100% - 25rem);
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  z-index: 999;
+
+  &__rou {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #2a3e4c;
+  }
+}
+
+.setting {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  
+  &__avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+  }
+  
+  &__name {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  
+  &__item {
+    border-bottom: 1px solid #f0f0f0;
+    height: 4rem;
+  }
+  
+  &__item,
+  &__log {
+    cursor: pointer;
+    color: #5e6c84;
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+
+    &:hover{
+      background: #d9d9d9;
+    }
+  }
+
+  &__log{
+    padding-top: 1rem;
+  }
+
+  &__box {
+    width: 20rem;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 1rem;
+
+    img {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+
+    h4 {
+      font-size: 1.4rem;
+      color: #2a3e4c;
+    }
+
+    p {
+      font-size: 1.3rem;
+      color: #5e6c84;
+    }
+  }
+}
+
+.ant-popover :deep(.ant-popover-inner-content) {
+  padding: 0;
+  font-size: 16px;
+}
+
+.ant-dropdown :deep(.ant-dropdown-content) {
+  font-size: 16px;
+}
